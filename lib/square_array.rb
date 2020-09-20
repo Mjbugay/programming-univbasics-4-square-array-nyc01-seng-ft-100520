@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  new_array = []
+  while array.length.times do
+    new_array.push(array*2)
+  end
+  new_array
 end
